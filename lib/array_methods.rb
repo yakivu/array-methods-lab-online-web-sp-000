@@ -3,11 +3,11 @@ array.include?(element)
 end
 
 def using_sort(array, element)
-array.sort(element)
+array.sort!(element)
 end
 
 def using_reverse(array, element)
-array.reverse(element)
+array.reverse!(element)
 end
 
 def using_first(array)
